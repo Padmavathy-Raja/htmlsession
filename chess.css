@@ -1,0 +1,21 @@
+.outer-box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.blackbox1{
+    border: black 1px solid;
+    height: 25px;
+    width: 25px;
+    
+    
+    
+}
+.blackbox2{
+    border: black 1px solid;
+    height: 25px;
+    width: 25px;
+}

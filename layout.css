@@ -1,0 +1,23 @@
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+    height: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.items{
+    border: solid 1px black;
+    /* margin: 10px; */
+}
+/* justify-content
+justify-items
+align-content
+/* align items  all four values applies for container(parent) not for items(child) */

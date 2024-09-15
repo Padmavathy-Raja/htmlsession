@@ -1,0 +1,77 @@
+h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:orange;
+    background-color: blueviolet;
+
+}
+h3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    background-color: rgb(237, 118, 201);
+}
+div{
+    font-size: 30px;
+    color: rgb(165, 42, 42);
+
+}
+button{
+    color: blue;
+    background-color:burlywood;
+}
+ /* Element selector */
+h3{
+    /* border-color: purple;
+    border-width: 10px;
+    border-style: double; */
+    border: dotted 5px blue;
+}
+/* Id selector */
+#claims{
+border: pink solid 10px;
+}
+/* Class selector */
+.Benefits1{
+    border: greenyellow double 8px;
+}
+/* atribute selector */
+/* input[type="password"]{
+    padding: 12px;
+    margin: 10px;
+    border:solid blue 3px;
+    width: 200px;
+    height: 50px;
+    box-sizing: content-box; */
+/* } */
+/* Combination of selector */
+
+.form{
+    border: solid black 2px;
+    width: 300px;
+}
+.form>h4{
+    background-color: aqua;
+}
+.form>div>label{
+    color:rgb(20, 20, 200);
+}
+/* hexadecimal code for color(6 digit or 3 digit)and this code starts with # */
+/* color:#ab65cd; */
+/* if u want both label and input as same color  */
+.form>div>label,.form>div>input{
+    color:purple;
+}
+
+/* if u want change label
+.form>div>label
+color red; */
+    
+.form>h4,.form>button{
+    border: double,2px blue;
+}
+/* if u want only change color to parent use greater than symbol
+.form>button
+if u want to change all button color
+.form button */
+

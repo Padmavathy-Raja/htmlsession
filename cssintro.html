@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSIntro</title>
+    <style>
+        h1 {
+            color: blue;background-color: brown;
+        }
+    </style>
+    <link rel="stylesheet" href="./cssintro.css">
+</head>
+<body>
+    <!-- Inline Css -->
+     <p style="color: blue;background-color: aquamarine;font-size:large;">Welcome to new page</p>
+     <div>
+        <h1>Banking</h1>
+        <h2>Insurance</h2>
+        <h3 class="Benefits1">mobile</h3>
+        <h4 id="claims" class="Benefits1">claim1</h4>
+     </div>
+     <div><label for="username">Username</label>
+        <input type="text">
+        <button>Submit</button>
+        <!-- atribute selector -->
+        <div>
+            <input type="text" placeholder="name">
+            <input type="password" placeholder="password">
+        </div>
+        <!-- Combination of selectors -->
+         
+         <div class="form-container">
+         <form class="form">
+            <h4>Sign Up</h4>
+            <div class="form-field"><label for="username">username</label><input type="text" id="username"></div>
+            <div class="form-field"><label for="userEmail">userEmail</label><input type="email" id="userEmail"></div>
+            <div class="form-field"><label for="password">password</label><input type="password" id="password"></div>
+            <button>Sign Up</button>
+         </form>
+    </div>
+</div>
+</body>
+</html>
